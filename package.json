@@ -1,0 +1,19 @@
+{
+  "name": "the_voice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "THE VOICE - FPS Horror Game",
+  "dependencies": {
+    "three": "^0.173.0",
+    "three-mesh-bvh": "^0.9.0",
+    "vite": "^6.1.0"
+  }
+}

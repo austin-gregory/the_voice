@@ -1,0 +1,40 @@
+{
+  "name": "The Haunted House",
+  "gltf": "/models/collision-world.glb",
+  "rooms": ["foyer", "parlour", "kitchen", "cellar", "study", "attic"],
+  "doors": ["door_01", "door_02", "door_03", "door_04", "door_05"],
+  "fakeDoors": ["door_fake_01", "door_fake_02", "door_fake_03", "door_fake_04"],
+  "keys": [
+    "trigger_key_room1",
+    "trigger_key_room2",
+    "trigger_key_room3",
+    "trigger_key_room4",
+    "trigger_key_room5"
+  ],
+  "letters": [
+    "trigger_letter_N1",
+    "trigger_letter_A1",
+    "trigger_letter_T",
+    "trigger_letter_H",
+    "trigger_letter_A2",
+    "trigger_letter_N2"
+  ],
+  "letterValues": {
+    "trigger_letter_N1": "N",
+    "trigger_letter_A1": "A",
+    "trigger_letter_T":  "T",
+    "trigger_letter_H":  "H",
+    "trigger_letter_A2": "A",
+    "trigger_letter_N2": "N"
+  },
+  "keyToDoor": {
+    "trigger_key_room1": "door_01",
+    "trigger_key_room2": "door_02",
+    "trigger_key_room3": "door_03",
+    "trigger_key_room4": "door_04",
+    "trigger_key_room5": "door_05"
+  },
+  "finalTrigger": "trigger_final_room",
+  "playerSpawn": "spawn_player",
+  "targetName": "NATHAN"
+}
